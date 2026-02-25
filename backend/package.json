@@ -1,0 +1,31 @@
+{
+  "name": "jb-motos-backend",
+  "version": "1.0.0",
+  "description": "Backend de ordens de serviço JB Motos (MySQL) para a disciplina de Desenvolvimento de Sistemas II",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mysql",
+    "jb-motos",
+    "ordem-de-servico"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
